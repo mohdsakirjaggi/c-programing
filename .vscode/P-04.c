@@ -1,14 +1,22 @@
 #include <stdio.h>
-int main(){
-    
-    float r,circle,circumfrence,PI=3.14;
-    printf("Enter redius :\n");
-    scanf("%d",&circle);
-    circle= PI*r*r;
-    circumfrence=2*PI*r;
-    printf("Area of circle is %d \n " ,circle );
-    
-}
 
+int main() {
+    float radius, area, circumference;
+    const float PI = 3.14159;
+
+    // Input radius
+    printf("Enter the radius of the circle: ");
+    scanf("%f", &radius);
+
+    // Calculate area and circumference
+    area = PI * radius * radius;
+    circumference = 2 * PI * radius;
+
+    // Display results
+    printf("Area of the circle = %.2f\n", area);
+    printf("Circumference of the circle = %.2f\n", circumference);
+
+    return 0;
+}
 
 
