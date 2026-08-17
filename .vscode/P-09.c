@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 int main(){
-    float p,r,t,si,a,ci;
+    float p,r,t,si,a,ci; // a=amount
     printf("Enter principal ,rate and time:\n");
     scanf("%f %f %f",&p,&r,&t);
     //Simple interst
