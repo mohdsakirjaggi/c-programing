@@ -10,7 +10,7 @@ below 60: Grade F.*/
 #include <stdio.h>
 int main(){
     float p;
-    printf("Enter your percentage");
+    printf("Enter your percentage:\n");
     scanf("%f",&p);
     if(p>=90 && p<=100){
         printf("Grade A");
