@@ -6,10 +6,10 @@ int main()
 {
     float cp, sp, profit, loss, percentage; // cp=Cost Price // sp=Selling Price
 
-    printf("Enter Cost Price: ");
+    printf("Enter Cost Price:\n ");
     scanf("%f", &cp);
 
-    printf("Enter Selling Price: ");
+    printf("Enter Selling Price:\n ");
     scanf("%f", &sp);
 
     if (sp > cp)
