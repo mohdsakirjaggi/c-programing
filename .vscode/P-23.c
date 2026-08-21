@@ -7,23 +7,23 @@ More than 30 days: Membership Cancelled.*/
 int main()
 {
     int days, fine;
-    printf("Enter  how many days did you keep the book with you?\n");
+    printf("Enter  late days ?\n");
     scanf("%d", &days);
 
     if (days <= 5)
     {
         fine = days * 2;
-        printf("Library fine =%d \n", fine);
+        printf("Library fine =Rs.%d \n", fine);
     }
     else if (days <= 10)
     {
-        fine = 5 * 2 + (days - 5) * 4;
-        printf("Libaray fine = %d", fine);
+        fine = 5 * 2 + (days - 5) + (days - 10) * 4;
+        printf("Libaray fine =Rs. %d\n", fine);
     }
     else if (days <= 30)
     {
-        fine = 5 * 2 + (days - 10) * 6;
-        printf("Library fine =%d\n", fine);
+        fine = (5 * 2) + (5 * 4) + (days - 10) * 6;
+        printf("Library fine =Rs.%d\n", fine);
     }
     else
     {
