@@ -9,7 +9,7 @@ int main()
     printf("Enter Cost Price:\n ");
     scanf("%f", &cp);
 
-    printf("Enter Selling Price:\n ");
+    printf("Enter Selling Price:\n   ");
     scanf("%f", &sp);
 
     if (sp > cp)
