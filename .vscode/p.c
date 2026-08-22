@@ -45,7 +45,8 @@ printf ("boolVar2 = 8i\n*", boolVar2);
 printf("Size of bool= %zu bytes\n", sizeof(_Bool));
     return 0;
 }*/
-#include <stdio.h>
+
+/*#include <stdio.h>
 
 int main()
 {
@@ -76,6 +77,53 @@ int main()
     else
     {
         printf("No Profit, No Loss\n");
+    }
+
+    return 0;
+}*/
+
+#include <stdio.h>
+
+int main()
+{
+    float a, b, result;
+    char op;
+
+    printf("Enter first number\n");
+    scanf("%f", &a);
+
+    printf("Enter operator (+,-,*,/,%%):\n");
+    scanf(" %c", &op);
+
+    printf("Enter second number\n");
+    scanf("%f", &b);
+
+    switch (op)
+    {
+    case '+':
+        result = a + b;
+        printf("result=%.2f", result);
+        break;
+
+    case '-':
+        result = a - b;
+        printf("result=%.2f", result);
+        break;
+
+    case '*':
+        result = a * b;
+        printf("result=%.2f", result);
+        break;
+
+    case '/':
+        if (b != 0)
+            printf("result=%.2f", a / b);
+        else
+            printf("Cannot be divide by zero");
+        break;
+
+    default:
+        printf("Invalid operator");
     }
 
     return 0;
