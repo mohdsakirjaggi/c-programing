@@ -4,11 +4,11 @@ int main()
 {
     float a, b, result;
     char op;
-    printf("Enter two numbers\n");
+    printf("Enter two numbers:\n");
     scanf("%f", &a);
     printf("Enter operator (+,-,*,/):\n");
     scanf(" %c", &op);
-    printf("Enter second number\n");
+    printf("Enter second number:\n");
     scanf("%f", &b);
     switch (op)
     {
