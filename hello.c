@@ -1,10 +1,11 @@
 #include <stdio.h>
-
+// declaration
 void printshakir();
+
 int main()
 {
     printshakir();
-    printshakir();
+    printshakir(); // function call
     printshakir();
     return 0;
 }
