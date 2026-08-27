@@ -1,17 +1,10 @@
 #include <stdio.h>
-// declaration
-void printshakir();
+void printhello();
 
 int main()
 {
-    printshakir();
-    printshakir(); // function call
-    printshakir();
+    printhello();
     return 0;
 }
-// function defination
-void printshakir()
-{
-    printf("malik\n");
-    printf("Shakir jaggi\n");
-}
+void printhello();
+printf("hello");
