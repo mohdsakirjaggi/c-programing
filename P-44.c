@@ -7,7 +7,7 @@ int main()
     int n, i;
     float sum = 1.0;
 
-    printf("Enter number of terms:\n ");
+    printf("Enter number of terms\n ");
     scanf("%d", &n);
 
     for (i = 2; i <= n; i++)
