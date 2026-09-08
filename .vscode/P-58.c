@@ -24,8 +24,9 @@ int main()
     int max, min;
 
     scanf("%d", &n);
+    P -
 
-    for (i = 0; i < n; i++)
+        for (i = 0; i < n; i++)
     {
         scanf("%d", &arr[i]);
     }
